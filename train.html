@@ -38,7 +38,7 @@
 
         <!-- Wells for displaying trains -->
         <div class="col-lg-12">
-          <div class="panel panel-default">
+          <div class="panel panel-primary">
             <div class="panel-heading">
               <h3 class="panel-title">Current Train Schedule</h3>
             </div>
@@ -102,17 +102,18 @@
     </div>
 
 
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <script>
-    // Initialize Firebase
-    var config = {
-    apiKey: "AIzaSyBp3O_2j2LMOoOr4hZS3YYbADhfAJhcGGw",
-    authDomain: "traain-database.firebaseapp.com",
-    databaseURL: "https://traain-database.firebaseio.com",
-    projectId: "traain-database",
-    storageBucket: "",
-    messagingSenderId: "858005466917"
-  };
-  firebase.initializeApp(config);
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBp3O_2j2LMOoOr4hZS3YYbADhfAJhcGGw",
+        authDomain: "traain-database.firebaseapp.com",
+        databaseURL: "https://traain-database.firebaseio.com",
+        projectId: "traain-database",
+        storageBucket: "traain-database.appspot.com",
+        messagingSenderId: "858005466917"
+      };
+      firebase.initializeApp(config);
     </script>
 
      <!-- jQuery -->
